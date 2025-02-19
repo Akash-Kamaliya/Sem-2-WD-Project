@@ -16,7 +16,10 @@ body {
     border-bottom: 5px solid #7a2f2f;
     position: relative;
 }
-
+mark {
+    background-color: #ffe4b2;
+    font-weight: bold;
+  }
 .Header h1 {
     font-family: 'Papyrus', cursive;
     font-size: 3rem;
