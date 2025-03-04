@@ -118,7 +118,7 @@ input[type="number"],
 input[type="date"],
 textarea,
 select {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 2px solid #b5651d;
     border-radius: 5px;
@@ -234,5 +234,69 @@ iframe {
     }
     100% {
         opacity: 1;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .Header {
+        padding: 15px 0;
+    }
+
+    .Header h1 {
+        font-size: 2rem;
+    }
+
+    .Header h3 {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        padding: 10px 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contect,
+    .form,
+    .info {
+        padding: 20px;
+        margin: 15px auto;
+        max-width: 90%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    .footer {
+        padding: 10px;
+        font-size: 14px;
     }
 }

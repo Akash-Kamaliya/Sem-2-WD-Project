@@ -192,3 +192,63 @@ tr:hover {
         opacity: 1;
     }
 }
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .Header {
+        padding: 15px 0;
+    }
+
+    .Header h1 {
+        font-size: 2rem;
+    }
+
+    .Header h3 {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        padding: 10px 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .landmarks,
+    .iconic,
+    .states,
+    .funfact {
+        padding: 20px;
+        margin: 15px auto;
+        max-width: 90%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

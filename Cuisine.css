@@ -167,3 +167,58 @@ li {
         opacity: 1;
     }
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .Header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .popular,
+    .north,
+    .south,
+    .sweet {
+        padding: 20px;
+        margin: 10px auto;
+        max-width: 90%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    audio {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Header h1 {
+        font-size: 2rem;
+    }
+
+    .Header h3 {
+        font-size: 1rem;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .popular h1,
+    .north h2,
+    .south h2,
+    .sweet h2 {
+        font-size: 1.5rem;
+    }
+}
