@@ -1,6 +1,6 @@
 body {
   font-family: "Georgia", serif;
-  background-color: #fff3e0;
+  background-color: #ffe1b1;
   color: #4a2c2a;
   line-height: 1.6;
   margin: 0;
@@ -191,7 +191,6 @@ tr:hover {
   }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .Header h1 {
     font-size: 2rem;
